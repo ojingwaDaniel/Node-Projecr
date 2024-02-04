@@ -1,6 +1,7 @@
-let url = "http://user/data/login.com";
+let url = "http/user/data/login.com";
 
 function Response(message) {
+    console.log(message)
   // response from the server
 }
 

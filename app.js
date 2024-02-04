@@ -3,5 +3,4 @@ function Greetings(name) {
 }
 Greetings('Chidebere')
 const log = require('./logger')
-log('this is the response message')
-// console.log(log)
+log('messsssssssage')
