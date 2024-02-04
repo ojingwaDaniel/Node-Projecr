@@ -5,4 +5,4 @@ function Response(message) {
 }
 
 // Export the Response function directly
-module.exports.result = Response;
+module.exports = Response;
