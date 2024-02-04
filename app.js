@@ -4,3 +4,9 @@ function Greetings(name) {
 Greetings('Chidebere')
 const log = require('./logger')
 log('messsssssssage')
+
+
+//path
+const path = require('path')
+const pathObj = path.parse(__filename)
+console.log(pathObj)

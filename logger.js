@@ -1,3 +1,5 @@
+console.log(__filename);
+console.log(__dirname);
 let url = "http/user/data/login.com";
 
 function Response(message) {
