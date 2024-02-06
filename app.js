@@ -1,12 +1,11 @@
-function Greetings(name) {
-    console.log(`Hi ${name} good day , how are you doing`)
+const amount = 12
+if (amount < 10) {
+    console.log('the number is small because is less than 10')
+} else {
+    console.log('congratulation you entered a number greater than 10')
 }
-Greetings('Chidebere')
-const log = require('./logger')
-log('messsssssssage')
-
-
-//path
-const path = require('path')
-const pathObj = path.parse(__filename)
-console.log(pathObj)
+console.log('Hey is my first Node App')
+console.log(process)
+setInterval(() => {
+    console.log('Hey Im excited to learn Node js')
+},1000)

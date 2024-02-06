@@ -1,1 +1,0 @@
-const amount = 10
