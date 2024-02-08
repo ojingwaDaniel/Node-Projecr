@@ -1,3 +1,4 @@
-const john  = 'john'
+const secret  = 'SUPER SECRET'  
+const john = 'john'
 const peter = 'peter'
-const susan =  'susan'
+const susan = 'susan'
