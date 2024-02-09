@@ -8,4 +8,7 @@ console.log('Hey is my first Node App')
 console.log(process)
 setInterval(() => {
     console.log('Hey Im excited to learn Node js')
-},1000)
+}, 1000)
+/// require to get modules
+const students = require('./name')
+console.log(students)
