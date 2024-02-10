@@ -12,6 +12,6 @@ setInterval(() => {
 /// require to get modules
 const students = require('./name')
 const greeting = require('./module')
-console.log(students)
-greeting(students.john);
-greeting(students.peter);
+// console.log(students)
+// greeting(students.john);
+// greeting(students.peter);
