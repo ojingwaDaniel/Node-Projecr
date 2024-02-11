@@ -13,6 +13,8 @@ setInterval(() => {
 const students = require('./name')
 const greeting = require('./module')
 const info = require('./module-alternative')
+// importing without assigning to variable
+require('./module-alternative')
 console.log(students)
 console.log(info)
 greeting(students.john);
