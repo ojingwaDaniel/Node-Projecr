@@ -15,3 +15,4 @@ const greeting = require('./module')
 console.log(students)
 greeting(students.john);
 greeting(students.peter);
+greeting('Daniel')
