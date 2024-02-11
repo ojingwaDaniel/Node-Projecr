@@ -17,3 +17,6 @@ const currentInfo = {
    
 } 
 console.log(currentInfo);
+
+
+// paths
