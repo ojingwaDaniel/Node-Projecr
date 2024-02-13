@@ -20,5 +20,5 @@ console.log(currentInfo);
 
 
 // paths
-// const path = require('path')
-// console.log(path)
+const path = require('path')
+console.log(path)
