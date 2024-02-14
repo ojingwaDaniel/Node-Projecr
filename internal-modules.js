@@ -34,7 +34,9 @@ const absolute = path.resolve(__dirname, 'content', 'subfolder', 'text.js')
 console.log(absolute)
 
 
-// file system 
+// file system
+
+// sync method
 
 const { readFileSync, writeFileSync } = require('fs')
 const first = readFileSync('./content/first.txt','utf8')
@@ -43,4 +45,14 @@ console.log(first);
 console.log(second);
 
 // writeSync
-writeFileSync('./content/result-sync.txt',`hello here is the result of your sync : ${first} and ${second}`)
+writeFileSync('./content/result-sync.txt', `hello here is the result of your sync : ${first} and ${second}`, { flag: 'a' })
+
+// async method
+const { readFile, writeFile } = require("fs");
+readFile('./content/first.txt', (err,result) => {
+    if (err) {
+        console.log(err);
+        return;
+    }
+    console.log(result)
+})
