@@ -32,3 +32,8 @@ console.log(basePath);
 // absolute path
 const absolute = path.resolve(__dirname, 'content', 'subfolder', 'text.js')
 console.log(absolute)
+
+
+// file system 
+
+const {readFileSync,writeFileSync} = require('fs')
