@@ -61,6 +61,14 @@ readFile('./content/first.txt','utf8' ,(err,result) => {
             return
         }
         const second = result
+         writeFile(
+           "./content/2nd-result-async.txt",
+             `Hello guys this the ${first} and the ${second} file`, (err, result) => {
+                 if (err) {
+                   console.log(err);
+               }console.log(result)
+           }
+         );
     })
-    writeFile('./content/2nd-result-sync.txt',`Hello guys this the ${first} and the ${second} file`)
+   
 })
