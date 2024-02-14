@@ -1,3 +1,4 @@
+const { log } = require('console')
 const os = require('os')
 // info about the user 
 const user = os.userInfo()
@@ -23,4 +24,7 @@ console.log(currentInfo);
 const path = require('path')
 console.log(path.sep)
 // file-path
-const filePath = path.join('/content','subfolder','text.txt')
+const filePath = path.join('/content', 'subfolder', 'text.txt')
+console.log(filePath)
+const basePath = path.basename(filePath)
+console.log(basePath);
