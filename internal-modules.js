@@ -45,7 +45,7 @@
 // console.log(second);
 
 // writeSync
-// writeFileSync('./content/result-sync.txt', `hello here is the result of your sync : ${first} and ${second}`, { flag: 'a' })
+writeFileSync('./content/result-sync.txt', `hello here is the result of your sync : ${first} and ${second}`, { flag: 'a' })
 
 // async method
 const { readFile, writeFile } = require("fs");
