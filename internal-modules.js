@@ -21,4 +21,4 @@ console.log(currentInfo);
 
 // paths
 const path = require('path')
-console.log(path)
+console.log(path.sep)
