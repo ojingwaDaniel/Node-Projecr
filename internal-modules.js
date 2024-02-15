@@ -38,37 +38,5 @@ console.log(absolute)
 
 // sync method
 
-const { readFileSync, writeFileSync } = require('fs')
-const first = readFileSync('./content/first.txt','utf8')
-const second = readFileSync("./content/second.txt", "utf8");
-console.log(first);
-console.log(second);
-
-// writeSync
-writeFileSync('./content/result-sync.txt', `hello here is the result of your sync : ${first} and ${second}`, { flag: 'a' })
 
 // async method
-const { readFile, writeFile } = require("fs");
-readFile('./content/first.txt','utf8' ,(err,result) => {
-    if (err) {
-        console.log(err);
-        return;
-    }
-    const first = result
-    readFile('./content/second.txt', 'utf8', (err, result) => {
-        if (err) {
-            console.log(err)
-            return
-        }
-        const second = result
-         writeFile(
-           "./content/2nd-result-async.txt",
-             `Hello guys this the ${first} and the ${second} file`, (err, result) => {
-                 if (err) {
-                   console.log(err);
-               }console.log(result)
-           }
-         );
-    })
-   
-})
