@@ -34,9 +34,3 @@ const absolute = path.resolve(__dirname, 'content', 'subfolder', 'text.js')
 console.log(absolute)
 
 
-// file system
-
-// sync method
-
-
-// async method
