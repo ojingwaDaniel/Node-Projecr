@@ -12,3 +12,4 @@ writeFileSync(
   { flag: "a" }
 );
 console.log("Done with task alocated to me");
+console.log("starting the next task");
