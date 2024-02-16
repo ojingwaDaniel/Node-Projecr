@@ -1,9 +1,9 @@
-/const http = require("http");
+const http = require("http");
 const server = http.createServer((req, res) => {
     if (req.url == '/') {
         res.end("Welcome to Danny's Tech Home")
 
-    } if (req.url == '/about') {
+    } if (req.url === '/about') {
         res.end('Here is a short History about our Company')
     }
     //  when the user enters acn address we dont have
