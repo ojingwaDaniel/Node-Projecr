@@ -19,7 +19,7 @@ readFile("./content/first.txt", "utf8", (err, result) => {
         if (err) {
           console.log(err);
         }
-        console.log("DOne qith this task");
+        console.log("Done with the current task ");
         
       }
     );
