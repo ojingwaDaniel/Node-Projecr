@@ -1,6 +1,6 @@
-const amount = 12
+const amount = 8
 if (amount < 10) {
-    console.log('the number is small because is less than 10')
+    console.log('the number is small because is less than 10 Try again')
 } else {
     console.log('congratulation you entered a number greater than 10')
 }
