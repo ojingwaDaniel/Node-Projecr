@@ -4,8 +4,7 @@
   "description": "",
   "main": "async-filesystem.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
