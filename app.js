@@ -1,5 +1,11 @@
-const _ = require('lodash')
-const nums = [1, [2, [3, [4,[5]]]]]
-const newNumArray = _.flatMapDeep(nums)
-console.log(newNumArray);
-console.log('Hi guys this is node lesson practising to be good at it ' )
+const { readFile } = require('fs')
+console.log('Starting First task')
+readFile('./content/first.txt', 'utf-8', (err, result) => {
+    if (err) {
+        console.log(err)
+        return
+    } console.log(result)
+    
+})
+console.log("Starting Second Tas");
+console.log("Starting Third Task");
