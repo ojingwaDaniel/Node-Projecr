@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
     }
     res.end('Error Page')
     
-})
-serve.listen(5000, () => {
-    console.log('Server running at port : 5000 ....')
-})
+// })
+// serve.listen(5000, () => {
+//     console.log('Server running at port : 5000 ....')
+// })
